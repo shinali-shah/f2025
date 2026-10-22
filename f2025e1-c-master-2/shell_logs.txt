@@ -1,0 +1,500 @@
+   80  ./bin/orderlogs testcases/all_new 
+   81  ./bin/orderlogs 
+   82  ./bin/orderlogs testcases/all_new.s
+   83  clear
+   84  clear
+   85  pwd
+   86  clear
+   87  make
+   88  ./bin/orderlogs testcases/all_old 
+   89  ./bin/orderlogs -f testcases/all_old 
+   90  make check
+   91  make stego
+   92  clear
+   93  make trex
+   94  clear
+   95  make clean
+   96  make trike
+   97  clear
+   98  make spinosaurus
+   99  make trike
+  100  make stego
+  101  clear
+  102  make spinosaurus
+  103  make trike
+  104  gdb mini_ci
+  105  clear
+  106  gdb bin/orderlogs 
+  107  clear
+  108  gdb bin/orderlogs 
+  109  clear
+  110  make spinosaurus
+  111  clear
+  112  make trike
+  113  clear
+  114  make trike
+  115  clear
+  116  gbd
+  117  clear
+  118  gdb bin/orderlogs 
+  119  clear
+  120  make bin/orderlogs 
+  121  gdb bin/orderlogs 
+  122  clear
+  123  make spinosaurus
+  124  clear
+  125  make trike
+  126  clear
+  127  gdb bin/orderlogs 
+  128  clear
+  129  make -f testcases/all_new 
+  130  clear
+  131  make spinosaurus
+  132  clear
+  133  run -f ./bin/orderlogs/testcases/all_new
+  134  clear
+  135  make -f bin/orderlogs/testcases/all_new
+  136  clear
+  137  make bin/o
+  138  clrear
+  139  clear
+  140  make bin/orderlogs
+  141  clear
+  142  gdb bin/orderlogs
+  143  clear
+  144  make spinosaurus
+  145  make trike
+  146  gdb bin/orderlogs
+  147  history > shell_logs.txt
+  148  cat shell_logs.txt
+  149  clear
+  150  git add .
+  151  git commit -m "assignment p1 done"
+  152  git push
+  153  git status
+  154  clear
+  155  ls
+  156  clear
+  157  make clean
+  158  clear
+  159  make 
+  160  make
+  161  clear
+  162  clear
+  163  make
+  164  clear
+  165  make test_week1
+  166  make test_week2
+  167  clear
+  168  make clean
+  169  make
+  170  clear
+  171  make clean
+  172  make
+  173  make test_week1
+  174  make test_week1
+  175  clear
+  176  make test_week2
+  177  clear
+  178  git add .
+  179  git commit -m "week 2 done"
+  180  git push
+  181  git status
+  182  clear
+  183  make clean
+  184  make all
+  185  clear
+  186  make test_week1
+  187  make test_week2
+  188  make
+  189  clear
+  190  make
+  191  make clean
+  192  make test week_2
+  193  clear
+  194  make test_week2
+  195  clear
+  196  git add
+  197  git add .
+  198  git commit -m "chunk size changed"
+  199  git push
+  200  git status
+  201  clear
+  202  make clean
+  203  make
+  204  clear
+  205  make test_week2
+  206  make clean
+  207  make all
+  208  clear
+  209  make test_week2
+  210  make clean
+  211  clear
+  212  make all
+  213  clear
+  214  make test_week2
+  215  make clean
+  216  make all
+  217  clear
+  218  git add .
+  219  git commit -m 
+  220  git commit -m "94/90"
+  221  git push
+  222  git status
+  223  clear
+  224  make
+  225  make clean
+  226  clear
+  227  make test_week2
+  228  clear
+  229  make test_week2
+  230  make test_week2
+  231  git add .
+  232  git commit -m "97/90"
+  233  git push
+  234  clear
+  235  make all
+  236  make
+  237  make test_week1
+  238  make test_week1
+  239  make test_week2
+  240  make test_week2
+  241  make test_week2
+  242  make test_week1
+  243  make test_week2
+  244  git add .
+  245  git commit
+  246  ]git commit -m "97/90"
+  247  git push
+  248  git status
+  249  clear
+  250  make test_week2
+  251  make test_week2
+  252  pwd
+  253  cd cs429/
+  254  ls
+  255  cd cs429-fa2026-mm-lab-shinali-shah/
+  256  make test_week1
+  257  clear
+  258  make test_week1
+  259  make test_week1./bump_test
+  260  clear
+  261  make test_week1
+  262  make test_week1
+  263  make
+  264  make all
+  265  clear
+  266  make test_week1
+  267  make test_week1
+  268  make test_week1
+  269  make test_week1
+  270  clear
+  271  clear
+  272  make all
+  273  make test_week1
+  274  clear
+  275  make
+  276  clear
+  277  make tesst_week1
+  278  make test_week1
+  279  clear
+  280  make test_week2
+  281  make test_week2
+  282  make tesst_week1
+  283  make test_week1
+  284  make test_week1
+  285  clear
+  286  make
+  287  make
+  288  make
+  289  clear
+  290  make test_week1
+  291  clear
+  292  make test_week2
+  293  make
+  294  make test_week2
+  295  make test_week2
+  296  make test_week2
+  297  make test_week2
+  298  git add .
+  299  git commit -m "97/90"
+  300  git push
+  301  git status
+  302  clear
+  303  make test_week2
+  304  clear
+  305  make test_week1
+  306  make test_week2
+  307  make test_week2
+  308  git add .
+  309  git commit -m "99/100"
+  310  git push
+  311  git status
+  312  clear
+  313  make test_week1
+  314  clear
+  315  make all
+  316  make test_week1
+  317  make test_week2
+  318  git remote -v
+  319  make spinosaurus
+  320  make trike
+  321  make stego
+  322  run ./bin/orderlogs testcases/all_new 
+  323  clear
+  324  ./bin/orderlogs testcases/all_new 
+  325  ./bin/orderlogs -f testcases/all_new 
+  326  make trike
+  327  clear
+  328  make stego
+  329  clear
+  330  make spinosaurus
+  331  make trike
+  332  clear
+  333  run gdb
+  334  clear
+  335  gdb ./bin/orderlogs
+  336  make spinosaurus
+  337  make trike
+  338  clear
+  339  gdb ./bin/orderlogs
+  340  clear
+  341  make spinosaurus
+  342  make trike
+  343  gdb ./bin/orderlogs
+  344  clear
+  345  make spinosaurus
+  346  make trike
+  347  gdb ./bin/orderlogs
+  348  clear
+  349  make spinosaurus
+  350  make trike
+  351  gdb ./bin/orderlogs
+  352  clear
+  353  make spinosaurus
+  354  make trike
+  355  gdb
+  356  clear
+  357  gdb ./bin/orderlogs
+  358  run spinosaurus
+  359  clear
+  360  make spinosaurus
+  361  make trike
+  362  gdb ./bin/orderlogs
+  363  history > shell_logs.txt
+  364  ls
+  365  cat shell_logs.txt 
+  366  clear
+  367  git add .
+  368  git status
+  369  git commit -m "assignment done"
+  370  git push
+  371  make clean
+  372  clear
+  373  make debug
+  374  clear
+  375  gdb ./mini_ci
+  376  make
+  377  clear
+  378  make check
+  379  make tests
+  380  make debug
+  381  make clean
+  382  clear
+  383  make debug
+  384  ls
+  385  cd mastery-version-e-master/
+  386  clear
+  387  make debug
+  388  make clean
+  389  gdb ./mini_ci
+  390  clear
+  391  make clean
+  392  make debug
+  393  gdb ./mini_ci
+  394  git clone git@github.com:shinali-shah/pt3.git
+  395  clear
+  396  git remote -v
+  397  git clone git@github.com:shinali-shah/pt4.git
+  398  ~/.gdbinit
+  399  make file ~/.gdbinit
+  400  nano ssh into your favorite UTCS lab machine
+  401  Create a file ~/.gdbinit
+  402  pwd
+  403  clear
+  404  ls
+  405  echo "set history save on" >> ~/.gdbinit
+  406  cat ~/.gdbinit
+  407  git clone git@github.com:shinali-shah/pt4.git
+  408  git clone git@github.com:shinali-shah/pt4
+  409  clear
+  410  git clone git@github.com:shinali-shah/pt4.git
+  411  clear
+  412  git clone git@github.com:shinali-shah/pt5.git
+  413  clear
+  414  make test_week2
+  415  cat traces/week2/*/*.rep | awk '$1=="a"{print $3}' | sort -n | uniq -c | sort -rn | head -15
+  416  make test_week2
+  417  git clone git@github.com:shinali-shah/pt6.git
+  418  git clone git@github.com:shinali-shah/pt6.git
+  419  clear
+  420  git clone git@github.com:shinali-shah/pt6.git
+  421  git clone git@github.com:shinali-shah/mastery-version-f-master.zip.git
+  422  clear
+  423  git clone git@github.com:cs429-fa2026/proficiency-1-srs6693.git
+  424  make clean
+  425  make debug
+  426  clear
+  427  clear
+  428  make clean
+  429  make debug
+  430  gdb ./bin/tinyheap.o
+  431  clear
+  432  sudo gdb ./bin/tinyheap
+  433  clear
+  434  gdb ./bin/tinyheap
+  435  gdb ./bin/tinyheap
+  436  gdb ./bin/tinyheap
+  437  clear
+  438  clear
+  439  make clean
+  440  make all
+  441  make debug
+  442  gdb ./bin/tinyheap
+  443  clear
+  444  make 
+  445  make
+  446  make all
+  447  clear
+  448  make debug
+  449  gdb ./bin/tinyheap
+  450  clear
+  451  check
+  452  clear
+  453  make test
+  454  make check
+  455  make debug
+  456  gdb ./bin/tinyheap
+  457  clear
+  458  make clean
+  459  make all
+  460  make debug
+  461  clear
+  462  gdb ./bin/tinyheap
+  463  make
+  464  make all
+  465  make all
+  466  make clean
+  467  make debug
+  468  gdb ./bin/tinyheap.o
+  469  gdb ./bin/tinyheap
+  470  gdb ./bin/tiny
+  471  clear
+  472  make
+  473  make all
+  474  make clear
+  475  make clean
+  476  make all
+  477  make clean
+  478  make all
+  479  make debug
+  480  gdb ./bin/tinyheap
+  481  clear
+  482  gdb ./bin/tinyhea
+  483  clear
+  484  make all
+  485  make clean
+  486  make all
+  487  make debu
+  488  make debug
+  489  gdb ./bin/tinyheap
+  490  make clean
+  491  make all
+  492  make debug
+  493  gdb ./bin/tinyheap
+  494  make clean
+  495  make all
+  496  make debug
+  497  gdb ./bin/tinyheap
+  498  make trike
+  499  make trike
+  500  clear
+  501  cd practice-orderlogs2
+  502  ls
+  503  f2025e1-c-master-2/
+  504  f2025e1-c-mas
+  505  clear
+  506  cd f2025e1-c-master-2/
+  507  ls
+  508  make trike
+  509  make stego
+  510  ./bin/orderlogs make trike
+  511  clear
+  512  chmod +x ref_order 
+  513  make trike
+  514  make trex
+  515  make stego
+  516  echo 'exit 0' > .aicheck
+  517  make trike
+  518  make stego
+  519  ./bin/orderlogs -f testcases/tiny 
+  520  gdb --args ./bin/orderlogs -f testcases/tiny 
+  521  make trike
+  522  make stego
+  523  make spinosaurus
+  524  make stego
+  525  make trike
+  526  git add .
+  527  git commit -m "merge"
+  528  git push
+  529  git status
+  530  clear
+  531  ./bin/orderlogs -f testcases/tiny 
+  532  gdb --args ./bin/orderlogs -f testcases/tiny 
+  533  run gdb ./bin/orderlogs testcases/tiny 
+  534  gdb ./bin/orderlogs testcases/tiny 
+  535  clear
+  536  ./bin/orderlogs -f testcases/tiny 
+  537  gdb --args ./bin/orderlogs -f testcases/tiny 
+  538  clear
+  539  make trike
+  540  make spinosaurus
+  541  make trex
+  542  make trike
+  543  clear
+  544  ./bin/orderlogs -f testcases/tiny
+  545  gdb --args ./bin/orderlogs -f testcases/tiny
+  546  clear
+  547  git push
+  548  git add
+  549  git add .
+  550  git push
+  551  clear
+  552  git status
+  553  git commit -m "restart"
+  554  git push
+  555  clear
+  556  ls
+  557  chmod +x ref_order 
+  558  make trike
+  559  make stego
+  560  ./bin/orderlogs -f testcases/tiny 
+  561  gdb --args ./bin/orderlogs -f testcases/tiny 
+  562  make trike
+  563  make stego
+  564  git add .
+  565  git commit -m "progress so far"
+  566  git push
+  567  ./bin/orderlogs -f testcases/tiny 
+  568  run
+  569  bt
+  570  gdb --args ./bin/orderlogs -f testcases/tiny 
+  571  make trike
+  572  make stego
+  573  git commit -m "done"
+  574  git add .
+  575  git commit -m "done"
+  576  git push
+  577  git status
+  578  clear
+  579  history > shell_logs.txt
