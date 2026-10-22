@@ -73,7 +73,10 @@ static void free_node(struct listnode** node) {
 
 void free_list(struct listnode* node) {
     while (node) {
+        struct listnode* next = node -> next;
         free_node(&node);
-	node = node->next;
+        node = next;
+        //free_node(&node);
+	    //node = node->next;
     }
 }
